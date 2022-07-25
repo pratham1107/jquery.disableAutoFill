@@ -23,10 +23,7 @@
     // An Object for Helper functions.
     var _helper = {};
 
-    // Extend the Array: add "insert" function.
-    Array.prototype.insert = function (index, item) {
-        this.splice(index, 0, item);
-    };
+    
 
     /**
      * Helper function - passwordListener
